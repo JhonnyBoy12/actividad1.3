@@ -8,128 +8,199 @@
     <title>Ayuda a un peludo</title>
 </head>
 <body>
-    <header class="menu1"> 
-        <div class="menu">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Inicio</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Perros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Gatos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="">Contactos</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+  <div class="general">
+    <!------menu-->
+    <div class="container w-75">
+        <nav class="navbar navbar-expand-lg" id="menu">
+          <div class="container-fluid" >
+            <a class="navbar-brand" href="#">
+              <span class="text-light fs-5 fw-bold">Logo</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#intro">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#animales">Perros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#animales">Gatos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactos">Contactos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+     </div>
+
+    <!-----SLIDER-->
+      <div class="container2 w-100 mx-auto">
+        <div id="carouselExample" class="carousel slide mx-auto">
+        <div class="carousel-inner" id="slide" data-bs-ride="carrusel">
+          <div class="carousel-item active" data-bs-slide="2000">
+            <img src="./assets/img/cachulo.jpg" class="d-block w-100" alt="slide1">
+          </div>
+          <div class="carousel-item active" data-bs-slide="2000">
+            <img src="./assets/img/lucifer.jfif" class="d-block w-100" alt="slide2">
+          </div>
+          <div class="carousel-item active" data-bs-slide="2000">
+            <img src="./assets/img/ginger.jpg" class="d-block w-100" alt="slide3">
+          </div>
         </div>
-    </header>
-    <div class="contenedor">
-      <div class="slide">
-                <div id="carouselExample" class="carousel slide">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/img/cachulo.jpg" class="d-block w-100" alt="slide1">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/img/lucifer.jfif" class="d-block w-100" alt="slide2">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/img/ginger.jpg" class="d-block w-100" alt="slide3">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="row">
-                  
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/cachulo.jpg" class="card-img-top" alt="carta1">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/flaca.webp" class="card-img-top" alt="carta2">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/ginger.jpg" class="card-img-top" alt="carta3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/lucifer.jfif" class="card-img-top" alt="cata4">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/niña.jpg" class="card-img-top" alt="carta5">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/perro2.jpg" class="card-img-top" alt="carta6">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-              
     </div>
     
+    <!-----CARTAS-->
+    <section class="border-3 border-top mt-5 w-75 mx-auto" id="animales"></section>
+    <div class="row mt-5 mx-auto w-75">
+      <div class="col ml-5 ">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/img/cachulo.jpg" class="card-img-top" alt="carta1">
+          <div class="card-body">
+            <h5 class="card-title">Cachulo</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
 
+      <!------------>
+
+      <div class="col ml-5 pt-2">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/img/lucifer.jfif" class="card-img-top" alt="carta2">
+          <div class="card-body">
+            <h5 class="card-title">Lucifer</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>   
+
+      <!------------>
+
+      <div class="col ml-5 pt-2">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/img/niña.jpg" class="card-img-top" alt="carta3">
+          <div class="card-body">
+            <h5 class="card-title">Niña</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!------------>
+
+      <div class="col ml-5 pt-2">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/img/tommy.jpg" class="card-img-top" alt="carta4">
+          <div class="card-body">
+            <h5 class="card-title">Tommy</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!------------>
+
+      <div class="col ml-5 pt-2">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/img/flaca.webp" class="card-img-top" alt="carta5">
+          <div class="card-body">
+            <h5 class="card-title">Flaca</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!------------>
+
+      <div class="col ml-5 pt-2">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/img/gatos.jfif" class="card-img-top" alt="carta6">
+          <div class="card-body">
+            <h5 class="card-title">Random</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>   
+    
+
+    <!-----NOSOTROS-->
+    <section class=" w-50 text-center mx-auto pt-5" id="intro">
+      <h1 class="p-3 fs-2 text-light border-top border-3"p>Una ONG que busca disminuir el indice de animales callejeros en <span class="text-primary">EL MUNDO</span>
+      </h1>
+      <p class="p-3 fs-4 mx-auto text-light fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia blanditiis 
+        quae excepturi a deserunt impedit doloremque aspernatur minus pariatur unde ullam.
+        
+      </p>
+    </section>
+
+    <!-----CONTACTOS-->
+    <section class="border-3 border-top mt-5 w-75 mx-auto " id="contactos"">
+
+    </section>
+    <section class="container-fluid mt-5 text-light">
+
+      <div class="row w-75 mx-auto my-5 servicio ">
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-5 icono">
+          <img src="./assets/img/Instagram_icon.png.webp" alt="insta" width="180" height="160">
+          <h3 class="fs-5 mt-4 px-4 pb-1 fw-bold">Instagram</h3>
+          <p class="mx-auto">AAAAAAAAAAAAAAA</p>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  my-5 icono">
+          <img src="./assets/img/2023_Facebook_icon.svg.png" alt="insta" width="180" height="160">
+          <h3 class="fs-5 mt-4 px-4 pb-1 fw-bold">Facebook</h3>
+          <p class="mx-auto">AAAAAAAAAAAAAAA</p>
+        </div>
+      </div>
+
+     
+      <div class="row w-75 mx-auto my-5 servicio ">
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-5 icono">
+          <img src="./assets/img/WhatsApp_icon.png" alt="insta" width="180" height="160">
+          <h3 class="fs-5 mt-4 px-4 pb-1 fw-bold">WhatsApp</h3>
+          <p class="mx-auto">AAAAAAAAAAAAAAA</p>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  my-5 icono">
+          <img src="./assets/img/Logo_of_Twitter.svg.webp" alt="insta" width="180" height="160">
+          <h3 class="fs-5 mt-4 px-4 pb-1 fw-bold">Twitter</h3>
+          <p class="mx-auto">AAAAAAAAAAAAAAA</p>
+        </div>
+      </div>
+
+    </section>               
+      
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
