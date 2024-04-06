@@ -4,58 +4,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perro</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Gato</title>
 </head>
 
-<body>
-    <header style="display: flex; justify-content: end;">
-        <a href="index.html">Inicio</a>
-    </header>
 
-    <h1 style="display: flex; justify-content: center; align-items: center;"> Perros en adopcion</h1>
-    <div class="parrafo" style="display: flex; justify-content: center; align-items: center;">
-        <p style="width: 40%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur, culpa voluptatum voluptatibus cum amet, ullam optio nemo blanditiis nesciunt ex, quibusdam quasi excepturi consequuntur incidunt dolore aliquam tempore debitis.
+
+
+<body>
+
+
+<div class="general">
+   <!------menu-->
+   <div class="container w-75">
+    <nav class="navbar navbar-expand-lg" id="menu">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="actividad2.html">
+          <span class="text-light fs-5 fw-bold" ><img src="./assets/img/perrologo.png" width="60px"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="actividad2.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="perro.html">Perros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gato.html">Gatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactos">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ </div>
+
+
+
+
+    <h1 class="text-center my-5 fw-bold text-light">Perros en adopcion</h1>
+    
+    <div class="w-75 mx-auto text-light fs-4 fw-bolder mb-5">
+        <p class="mx-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur, culpa voluptatum voluptatibus cum amet, ullam optio nemo blanditiis nesciunt ex, quibusdam quasi excepturi consequuntur incidunt dolore aliquam tempore debitis.
         </p>
     </div>
 
-    <h2 style="display: flex; justify-content: center; align-items: center;">Nuestros Perros Que Buscan Familia: </h2>
-    <br>
-    <br>
-
     <hr>
-
-    <div style="margin-left: 100px;">
-        <div class="cachulo" style="display: flex;align-items: center;">
-            <img src="./assets/img/cachulo.jpg" alt="cachulo" height="170px" width="300px">
-            <div style="display: flex; margin-left: 30px;">
-                <a href="cachulo.html">Cachulo</a>
-            </div>
-        </div>
+    <h2 class="my-5 text-light fw-bold text-center mx-auto">Nuestros Perros Que Buscan Familia: </h2>
 
         <hr>
 
-        <br>
-        <div class="niña" style="display: flex;align-items: center;">
-            <img src="./assets/img/niña.jpg" alt="niña" height="170px" width="300px">
-            <div style="display: flex; margin-left: 30px;">
-                <a href="niña.html">Niña</a>
+        <section class="container-fluid p-3">
+            <div class="row mx-auto w-75">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="./assets/img/cachulo.jpg" alt="cachulo" style="border-radius: 5px;" width="300" height="160"> 
+                    
+                        <a href="cachulo.html" class="ms-3">Cachulo</a>
+                   
+                </div>
             </div>
-        </div>
-        <br>
         <hr>
+        </section>
 
-        <div class="flaca" style="display: flex;align-items: center;">
-            <img src="./assets/img/flaca.webp" alt="flaca" height="170px" width="300px">
-            <div style="display: flex; margin-left: 30px;">
-                <a href="flaca.html">Flaca</a>
+
+        <section class="container-fluid p-3">
+            <div class="row mx-auto w-75">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="./assets/img/niña.jpg" alt="niña" style="border-radius: 5px;" width="300" height="160"> 
+                    
+                        <a href="niña.html" class="ms-3">Niña</a>
+                   
+                </div>
             </div>
+        <hr>
+        </section>
+
+        <section class="container-fluid p-3">
+            <div class="row mx-auto w-75">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="./assets/img/flaca.webp" alt="flaca" style="border-radius: 5px;" width="300" height="160"> 
+                    
+                        <a href="flaca.html" class="ms-3">Flaca</a>
+                   
+                </div>
+            </div>
+        <hr>
+        </section>
 
 
 
         </div>
-    </div>
     <hr>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>

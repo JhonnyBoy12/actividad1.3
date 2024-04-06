@@ -11,6 +11,7 @@ body{
     width: 100%;
 }
 
+
 /*===menu=======*/
 #menu li > a{
     font-weight: bold;
@@ -108,4 +109,26 @@ header{
         justify-content: center !important;
     }
     
+}
+
+.informacion > p{
+    color: #F6891D;
+}
+.informacion{
+    background: #EAE6DC;
+}
+@media (max-width:768px) {
+    #perros{
+        width: 90% !important;
+    }
+   
+}
+@media (max-width:576px) {
+    #perros{
+        width: 90% !important;
+    }
+   
+}
+.tilin{
+    background-color:blueviolet;
 }
